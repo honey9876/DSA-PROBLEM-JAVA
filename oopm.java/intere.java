@@ -29,3 +29,4 @@ class King implements ChessPlayer {
         System.out.println("up, down, left, right ");
     }
 }
+
