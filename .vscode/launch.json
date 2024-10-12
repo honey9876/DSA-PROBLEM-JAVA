@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printxn",
+            "request": "launch",
+            "mainClass": "lacture26.printxn",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "lastOcc",
+            "request": "launch",
+            "mainClass": "lacture26.lastOcc",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "occurence",
+            "request": "launch",
+            "mainClass": "lacture26.occurence",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "fact",
             "request": "launch",
             "mainClass": "lacture26.fact",
