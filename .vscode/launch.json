@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pairing",
+            "request": "launch",
+            "mainClass": "lacture27.pairing",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "duplicate",
+            "request": "launch",
+            "mainClass": "lacture27.duplicate",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "power",
             "request": "launch",
             "mainClass": "lacture26.power",
