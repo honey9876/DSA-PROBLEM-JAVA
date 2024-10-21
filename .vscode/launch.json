@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "shorts",
+            "request": "launch",
+            "mainClass": "lacture28.shorts",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "binaryString",
             "request": "launch",
             "mainClass": "lacture27.binaryString",
