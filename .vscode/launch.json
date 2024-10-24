@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotead",
+            "request": "launch",
+            "mainClass": "lacture28.rotead",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "shotssss",
             "request": "launch",
             "mainClass": "lacture28.shotssss",
