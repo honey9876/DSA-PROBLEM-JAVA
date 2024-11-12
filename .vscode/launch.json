@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "permatation",
+            "request": "launch",
+            "mainClass": "permatation",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "subSet",
             "request": "launch",
             "mainClass": "subSet",
