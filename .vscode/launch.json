@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Nqueens",
+            "request": "launch",
+            "mainClass": "Nqueens",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "permatation",
             "request": "launch",
             "mainClass": "permatation",
