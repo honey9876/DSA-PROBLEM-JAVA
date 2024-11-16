@@ -16,7 +16,7 @@ public class Nqueens {
             for(int j=0; j<board.length; j++){
                 System.out.print(board[i][j]);
             }
-        }
+        } 
         System.out.println();
     }
     public static void main(String[] args) {
