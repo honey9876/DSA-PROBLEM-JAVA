@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classTwo",
+            "request": "launch",
+            "mainClass": "arrayList.classTwo",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "classOne",
+            "request": "launch",
+            "mainClass": "arrayList.classOne",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "Nqueens",
             "request": "launch",
             "mainClass": "Nqueens",
