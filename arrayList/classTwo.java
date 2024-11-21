@@ -8,7 +8,7 @@ public class classTwo {
         List.set(idx1, List.get(idx2)); 
         List.set(idx2, temp);
     }
-
+ 
 
 
 

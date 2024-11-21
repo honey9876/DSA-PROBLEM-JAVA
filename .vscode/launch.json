@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classThree",
+            "request": "launch",
+            "mainClass": "arrayList.classThree",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "classTwo",
             "request": "launch",
             "mainClass": "arrayList.classTwo",
