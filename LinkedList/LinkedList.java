@@ -108,27 +108,62 @@ public class LinkedList {
         return -1;
     }
 
+    public void revers(){
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            
+        }
+        head = prev;
+
+    }
+    public void deleteNthfromEnd(int n ){
+        int size = 0;
+        Node temp = head;
+        while (temp !=null) {
+            temp = temp.next;
+            size++;
+            
+        }
+        if (n == size) {
+            head = head.next;
+            return;
+        }
+        int i = 1;
+        int iToFind = size-n;
+        Node prev = head;
+        while (i < iToFind) {
+           prev = prev.next;
+           i++;
+        }
+        prev.next = prev.next.next;
+        return;
+    }
+    public void palindrome(int n){
+
+    }
+
 
 
     
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
-        // ll.print();
-        ll.addFirst(2); 
-        // ll.print();
+        LinkedList ll = new LinkedList();       
+        ll.addFirst(2);         
         ll.addFirst(1);
-        // ll.print();
-        ll.addLast(3);  
-        // ll.print();
+        ll.addLast(5);  
         ll.addLast(4);  
-        ll.add(2, 3);
-        // ll.print();
-
-        // ll.printList(); 
-        // ll.removeFirst();
+        ll.add(2, 3); 
+        
         ll.print();
-        System.out.println(ll.itrSearch(3));
-        System.out.println(ll.itrSearch(10));
-
+        // ll.revers();
+        // ll.print();
+        ll.deleteNthfromEnd(3);
+        ll.print();
+        
     }
 }
