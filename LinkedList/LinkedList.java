@@ -14,7 +14,7 @@ public class LinkedList {
 
     private Node head; 
     private Node tail; 
-    // public static Node size;
+    public static Node size;
 
 
     public LinkedList() {
@@ -86,9 +86,9 @@ public class LinkedList {
     }
 
     public int removeFirst(){
-        // if (size == 0) {
-        //     System.out.println("ll is empty");
-        // }
+        if (size == 0) {
+            System.out.println("ll is empty");
+        }
         int val = head.data;
         head = head.next;
         return val;
@@ -185,24 +185,62 @@ public class LinkedList {
         return true;
 
     }
+    public boolean isCycle(){
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null ) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                return true;
+            }
+
+        }
+        return false;
+    }
+
+    public static void removeCycle(){
+        Node slow = head;
+        Node fast = head;
+       boolean cycle = 0
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (fast == slow) {
+                cycle = true;
+                break;
+                
+            }
+        }
+        if (cycle == false) {
+            return;
+
+
+        }
+
+        slow = head;
+        Node prev = null;
+        while (slow != fast) {
+            prev = fast;
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        prev.next = null;
+    }
 
 
 
     
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();       
-        ll.addFirst(1);         
-        ll.addFirst(2);
-        ll.addLast(2);  
-        ll.addLast(1);  
-        // ll.add(2, 3); 
-        
-        ll.print();
-        // ll.revers();
-        // ll.print();
-        // ll.deleteNthfromEnd(3);
-        // ll.print();
-        System.out.println(ll.Checkpalindrome());
+    head = new Node(1);
+    head.next = new Node(2);
+    head.next.next = new Node(3);
+    head.next.next.next; = head;
+
+    System.out.println();
         
     }
 }
