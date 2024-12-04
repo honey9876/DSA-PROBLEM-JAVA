@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classroom",
+            "request": "launch",
+            "mainClass": "classroom",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "classroom",
+            "request": "launch",
+            "mainClass": "LinkedList.classroom",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "classTwo",
+            "request": "launch",
+            "mainClass": "LinkedList.classTwo",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "LinkedList",
             "request": "launch",
             "mainClass": "LinkedList.LinkedList",
