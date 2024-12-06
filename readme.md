@@ -1,4 +1,4 @@
-
+<!-- 
 
 daily solution 
 1 - Sum of two integers
@@ -204,8 +204,4 @@ daily solution
 96- Accept a decimal number and convert it into binary equivalent.
 97- Accept a binary number in String form and convert it into decimal number
 
-
-
-
-
-
+ -->

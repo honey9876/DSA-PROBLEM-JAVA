@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stack",
+            "request": "launch",
+            "mainClass": "stack.stack",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "classOne",
+            "request": "launch",
+            "mainClass": "stack.classOne",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "classOne",
+            "request": "launch",
+            "mainClass": "lactureStack.classOne",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
+            "name": "SumOfTwoIntegers",
+            "request": "launch",
+            "mainClass": "dailysolution.SumOfTwoIntegers",
+            "projectName": "java-apna_6e07e993"
+        },
+        {
+            "type": "java",
             "name": "classroom",
             "request": "launch",
             "mainClass": "classroom",
